@@ -1,8 +1,11 @@
 def fib (n):
-    pass
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    return fib(n-1) + fib(n-2)
     
 
 if __name__ == '__main__':
-    n = input('Type your number : ')
-    fib(n)
+    n = int(input('Type your number : '))
 
