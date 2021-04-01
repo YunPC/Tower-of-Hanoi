@@ -1,7 +1,8 @@
-def fib ():
-    n = input('Type your number : ')
-    print(n)
+def fib (n):
+    pass
+    
 
 if __name__ == '__main__':
-    fib()
+    n = input('Type your number : ')
+    fib(n)
 
