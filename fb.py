@@ -8,4 +8,5 @@ def fib (n):
 
 if __name__ == '__main__':
     n = int(input('Type your number : '))
+    print(fib(n))
 
